@@ -1,10 +1,14 @@
 {
-  "name": "angular-CRUD",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "starr": "json-server --watch db.json --port 3001"
+    "start": "json-server --watch db.json --port 3001"
   },
   "repository": {
     "type": "git",
@@ -12,12 +16,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LeoSanGo/angular-CRUD/issues"
-  },
-  "homepage": "https://github.com/LeoSanGo/angular-CRUD#readme",
-  "dependencies": {
-    "json-server": "^0.16.3"
-  }
+  "license": "ISC"
 }
